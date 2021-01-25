@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<input type="checkbox" id="checkbox" /><label for="checkbox">Checkbox</label>
+		<input type="button" onclick="simulateClick();" value="Simulate click" />
+		<input
+			type="button"
+			onclick="addHandler();"
+			value="Add a click handler that calls preventDefault"
+		/>
+		<input
+			type="button"
+			onclick="removeHandler();"
+			value="Remove the click handler that calls preventDefault"
+		/>
+	</body>
+	<script src="dispatchEvent.js"></script>
+</html>
